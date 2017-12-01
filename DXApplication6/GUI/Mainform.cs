@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace DXApplication6
 {
+    int test;
     public partial class Mainform : DevExpress.XtraBars.Ribbon.RibbonForm
     {
         public Mainform()

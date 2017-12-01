@@ -303,7 +303,7 @@
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 56);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(733, 28);
-            this.layoutControlItem3.Text = " ";
+            this.layoutControlItem3.Text = "Email:";
             this.layoutControlItem3.TextSize = new System.Drawing.Size(65, 16);
             // 
             // gridControl1
