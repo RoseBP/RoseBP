@@ -4,7 +4,7 @@ namespace DXApplication6
 {
     internal class CauHoi
     {
-        public string MaCH { set; get; }
+        public int MaCH { set; get; }
         public string Noidung { set; get; }
         public string PhuongAnA { set; get; }
         public string PhuongAnB { set; get; }
@@ -12,8 +12,8 @@ namespace DXApplication6
         public string PhuongAnD { set; get; }
         public string DapAnDung { set; get; }
         public string CourseID { set; get; }
-        public string Made { set; get; }
-        internal CauHoi(string MaCH, string Noidung, string PhuongAnA, string PhuongAnB, string PhuongAnC, string PhuongAnD,string DapAnDung,string CourseID,string Made)
+        public int Made { set; get; }
+        internal CauHoi(int MaCH, string Noidung, string PhuongAnA, string PhuongAnB, string PhuongAnC, string PhuongAnD,string DapAnDung,string CourseID,int Made)
         {
             this.MaCH = MaCH;
             this.Noidung = Noidung;

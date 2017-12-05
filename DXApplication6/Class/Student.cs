@@ -8,43 +8,11 @@ namespace DXApplication6
 {
     public class Student
     {
-        private String MSSV;
-        private String Name;
-        private String Email;     
-        private String MSSV_
-        {
-            get
-            {
-                return MSSV; 
-            }
-            set
-            {
-                MSSV = value;
-            }
-        }
-        private String Name_
-        {
-            get
-            {
-                return Name;
-            }
-            set
-            {
-                Name = value;
-            }
-        }
-        private String Email_
-        {
-            get
-            {
-                return Email;
-            }
-            set
-            {
-                Email = value;
-            }
-        }
-       
+        public String MSSV { set; get; }
+        public String Name { set; get; }
+        public String Email { set; get; }
+
+
         internal Student(string name, string mSSV)
         {
             this.Name = "";

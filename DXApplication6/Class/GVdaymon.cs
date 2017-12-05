@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project_Thi_Trac_Nghiem
+namespace DXApplication6
 {
     class GVdaymon
     {

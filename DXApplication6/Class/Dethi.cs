@@ -8,10 +8,10 @@ namespace DXApplication6
 {
     class Dethi
     {
-        private String MaDethi;
-        private String CourseID;
-        
-        internal Dethi(String MaDethi , String CourseID,CauHoi ch)
+        public int MaDethi { set; get; }
+        public String CourseID { set; get; }
+
+        internal Dethi(int MaDethi , String CourseID)
         {
             this.MaDethi = MaDethi;
             this.CourseID = CourseID;
